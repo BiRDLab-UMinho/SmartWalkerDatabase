@@ -624,14 +624,12 @@ if __name__ == "__main__":
     dataset_path = "../.."
 
     # subject data to extract
-    subj_ids = ["participant{0:02d}".format(i) for i in range(14)] + \
-               ["randomgait{0:02d}".format(i) for i in range(4)]    # extra variability gait data
+    subj_ids = ["participant{0:02d}".format(i) for i in range(14)]
 
     # sequence data to extract for each subject
     seq_ids = ["left_0.3", "left_0.5", "left_0.7",
                "right_0.3", "right_0.5", "right_0.7",
-               "straight_0.3", "straight_0.5", "straight_0.7"] + \
-              ["random{}".format(i) for i in range(15)]             # extra variability gait data
+               "straight_0.3", "straight_0.5", "straight_0.7"]
 
     rep_ids = ["corner1", "corner2", "corner3",
                "corridor1", "corridor2", "corridor3"]
