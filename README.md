@@ -1,5 +1,5 @@
 # SmartWalkerDatabase
-Scripts to process the Smart Walker Database, for posture and gait analysis.
+Scripts to process the [Smart Walker Database](https://physionet.org/content/multi-gait-posture/1.0.0/), for posture and gait analysis.
 
 
 ## Install requirements
